@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #D57149;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.coir.controller.DashboardFormController">
+<AnchorPane prefHeight="900.0" prefWidth="700.0" style="-fx-background-color: #D57149;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.coir.controller.DashboardFormController">
    <children>
       <JFXButton layoutX="41.0" layoutY="142.0" onAction="#btnhomeOnAction" onMouseExited="#btnhomeOnMouseExited" prefHeight="36.0" prefWidth="173.0" styleClass="btn" stylesheets="@../style/dash.css" text="       Dashboard" textFill="#b15821">
          <font>
@@ -99,12 +99,12 @@
             <Image url="@../assests/icon/icons8-dashboard-60.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="775.0" fitWidth="1554.0" layoutX="250.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="775.0" fitWidth="1103.0" layoutX="250.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../assests/image/ecologiacal-products-concept-with-copy-space.jpg" />
          </image>
       </ImageView>
-      <AnchorPane fx:id="pagingPane" layoutX="257.0" layoutY="1.0" prefHeight="706.0" prefWidth="1212.0">
+      <AnchorPane fx:id="pagingPane" layoutX="257.0" layoutY="39.0" prefHeight="706.0" prefWidth="1212.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -113,7 +113,7 @@
                <font>
                   <Font name="Dyuthi Regular" size="37.0" />
                </font></Text>
-            <ImageView fitHeight="56.0" fitWidth="49.0" layoutX="155.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" rotate="6.7">
+            <ImageView fitHeight="56.0" fitWidth="49.0" layoutX="176.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" rotate="6.7">
                <image>
                   <Image url="@../assests/icon/icons8-so-so-skin-type-4-96.png" />
                </image>
@@ -156,7 +156,7 @@
             </Label>
             <ImageView blendMode="MULTIPLY" fitHeight="50.0" fitWidth="61.0" layoutX="394.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../assests/icon/icons8-products%20(2).gif" />
+                  <Image url="@../assests/image/ecologiacal-products-concept-with-copy-space.jpg" />
                </image>
             </ImageView>
             <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="MULTIPLY" fill="#db9b47" height="95.0" layoutX="617.0" layoutY="113.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="3.0" width="240.0" />
@@ -179,6 +179,11 @@
                   </Text>
                </children>
             </AnchorPane>
+            <ImageView blendMode="MULTIPLY" fitHeight="49.0" fitWidth="60.0" layoutX="379.0" layoutY="124.0">
+               <image>
+                  <Image url="@../assests/icon/icons8-products%20(2).gif" />
+               </image>
+            </ImageView>
          </children></AnchorPane>
       <JFXButton layoutX="44.0" layoutY="423.0" onAction="#btnstockOnAction" prefHeight="36.0" prefWidth="173.0" styleClass="btn" stylesheets="@../style/dash.css" text="   Material Stock" textFill="#b15821">
          <font>
@@ -202,7 +207,7 @@
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" layoutX="27.0" layoutY="120.0" stroke="#5c2b04" strokeType="INSIDE" width="200.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d7860d" height="2.0" layoutX="29.0" layoutY="586.0" stroke="#5c2b04" strokeType="INSIDE" width="200.0" />
-      <Circle blendMode="MULTIPLY" fill="WHITE" layoutX="124.0" layoutY="51.0" radius="51.0" stroke="#91490d" strokeType="INSIDE" />
+      <Circle blendMode="MULTIPLY" fill="WHITE" layoutX="124.0" layoutY="61.0" radius="51.0" stroke="#91490d" strokeType="INSIDE" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" layoutX="57.0" layoutY="132.0" stroke="#5c2b04" strokeType="INSIDE" width="134.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" layoutX="41.0" layoutY="580.0" stroke="#5c2b04" strokeType="INSIDE" width="173.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" layoutX="61.0" layoutY="574.0" stroke="#5c2b04" strokeType="INSIDE" width="134.0" />

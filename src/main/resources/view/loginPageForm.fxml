@@ -18,7 +18,7 @@
             <Image url="@../assests/image/overhead-view-woman-making-string-with-jute-string-textured-backdrop.jpg" />
          </image>
       </ImageView>
-      <AnchorPane fx:id="pane" layoutX="53.333333333333336" layoutY="105.0" prefHeight="421.0" prefWidth="396.0" style="-fx-background-color: blur; -fx-border-color: #8d210b; -fx-border-radius: 20;" AnchorPane.leftAnchor="53.333333333333336">
+      <AnchorPane fx:id="Pane" layoutX="53.333333333333336" layoutY="105.0" prefHeight="421.0" prefWidth="396.0" style="-fx-background-color: blur; -fx-border-color: #8d210b; -fx-border-radius: 20;" AnchorPane.leftAnchor="53.333333333333336">
          <children>
             <Text layoutX="40.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
                <font>
