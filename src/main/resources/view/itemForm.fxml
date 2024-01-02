@@ -62,7 +62,7 @@
             <TableColumn fx:id="colAction" prefWidth="144.0" text="Action" />
          </columns>
       </TableView>
-      <JFXButton buttonType="RAISED" layoutX="872.0" layoutY="713.0" onAction="#btnBackOnAction" prefHeight="34.0" prefWidth="89.0" style="-fx-background-color: brown;" styleClass="btn" stylesheets="@../style/style.css" text="Back" textFill="WHITE">
+      <JFXButton buttonType="RAISED" layoutX="1116.0" layoutY="713.0" onAction="#btnBackOnAction" prefHeight="34.0" prefWidth="89.0" style="-fx-background-color: brown;" styleClass="btn" stylesheets="@../style/style.css" text="Back" textFill="WHITE">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>

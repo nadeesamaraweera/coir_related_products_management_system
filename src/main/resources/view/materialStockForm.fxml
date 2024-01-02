@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root" blendMode="MULTIPLY" prefHeight="703.0" prefWidth="1212.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.coir.controller.MaterialStockFormController">
+<AnchorPane fx:id="root" blendMode="MULTIPLY" prefHeight="806.0" prefWidth="1459.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.coir.controller.MaterialStockFormController">
    <children>
       <Label layoutX="9.0" layoutY="3.0" prefHeight="42.0" prefWidth="330.0" text="Material Stock Form" textFill="#744717">
          <font>
@@ -38,7 +38,7 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </Label>
-      <Label fx:id="lblSupplierName" layoutX="590.0" layoutY="111.0" prefHeight="21.0" prefWidth="80.0" textFill="#278d7f">
+      <Label fx:id="lblSupplierName" layoutX="571.0" layoutY="107.0" prefHeight="21.0" prefWidth="80.0" textFill="#278d7f">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
@@ -85,7 +85,7 @@
          </font>
       </Label>
       <TextField fx:id="txtQty" layoutX="672.0" layoutY="186.0" onAction="#txtQtyOnAction" prefHeight="33.0" prefWidth="66.0" style="-fx-border-color: black;" />
-      <TableView fx:id="tblStockCart" layoutX="22.0" layoutY="274.0" prefHeight="341.0" prefWidth="755.0" style="-fx-border-color: black;">
+      <TableView fx:id="tblStockCart" layoutX="22.0" layoutY="317.0" prefHeight="389.0" prefWidth="747.0" style="-fx-border-color: black;">
          <columns>
             <TableColumn fx:id="colRawId" prefWidth="131.3333797454834" text="RawMaterial  Id" />
             <TableColumn fx:id="colIRawName" prefWidth="160.6666717529297" text="RawMaterial  Name" />
@@ -95,7 +95,7 @@
             <TableColumn fx:id="colAction" prefWidth="120.00002034505212" text="Action" />
          </columns>
       </TableView>
-      <JFXButton fx:id="btnAdd" buttonType="RAISED" layoutX="633.0" layoutY="234.0" onAction="#btnAddToStockOnAction" prefHeight="33.0" prefWidth="143.0" style="-fx-background-color: blue;" styleClass="btn" stylesheets="@../style/style.css" text="Add to Stock" textFill="WHITE">
+      <JFXButton fx:id="btnAdd" buttonType="RAISED" layoutX="633.0" layoutY="250.0" onAction="#btnAddToStockOnAction" prefHeight="33.0" prefWidth="143.0" style="-fx-background-color: blue;" styleClass="btn" stylesheets="@../style/style.css" text="Add to Stock" textFill="WHITE">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -110,22 +110,22 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <JFXButton buttonType="RAISED" layoutX="805.0" layoutY="631.0" onAction="#btnBackOnAction" prefHeight="34.0" prefWidth="89.0" style="-fx-background-color: brown;" styleClass="btn" stylesheets="@../style/style.css" text="Back">
+      <JFXButton buttonType="RAISED" layoutX="1107.0" layoutY="665.0" onAction="#btnBackOnAction" prefHeight="34.0" prefWidth="89.0" style="-fx-background-color: brown;" styleClass="btn" stylesheets="@../style/style.css" text="Back">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <Label fx:id="lblNetTotal" layoutX="117.0" layoutY="632.0" prefHeight="33.0" prefWidth="149.0" textFill="#b51313">
+      <Label fx:id="lblNetTotal" layoutX="99.0" layoutY="716.0" prefHeight="33.0" prefWidth="149.0" textFill="#b51313">
          <font>
             <Font name="System Bold" size="22.0" />
          </font>
       </Label>
-      <Label layoutX="25.0" layoutY="636.0" text="Net Total:">
+      <Label layoutX="25.0" layoutY="723.0" text="Net Total:">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </Label>
-      <JFXButton fx:id="btnPrint" buttonType="RAISED" layoutX="807.0" layoutY="522.0" onAction="#btnPrintOnAction" prefHeight="34.0" prefWidth="81.0" style="-fx-background-color: orange;" styleClass="btn" stylesheets="@../style/style.css" text="Print" textFill="WHITE">
+      <JFXButton fx:id="btnPrint" buttonType="RAISED" layoutX="807.0" layoutY="568.0" onAction="#btnPrintOnAction" prefHeight="34.0" prefWidth="81.0" style="-fx-background-color: orange;" styleClass="btn" stylesheets="@../style/style.css" text="Print" textFill="WHITE">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
