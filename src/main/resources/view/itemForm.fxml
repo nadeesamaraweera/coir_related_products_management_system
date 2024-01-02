@@ -58,11 +58,11 @@
             <TableColumn fx:id="colItemName" prefWidth="127.333251953125" text="Item Name" />
             <TableColumn fx:id="colUnitPrice" prefWidth="145.3333740234375" text="Unit Price" />
             <TableColumn fx:id="colQtyOnHand" prefWidth="125.3333740234375" text="Qty On Hand" />
-            <TableColumn fx:id="colRawMaterialId" prefWidth="136.6666259765625" text="Raw Material  Id" />
-            <TableColumn fx:id="colAction" prefWidth="94.0" text="Action" />
+            <TableColumn fx:id="colRawMaterialId" prefWidth="170.39990234375" text="Raw Material  Id" />
+            <TableColumn fx:id="colAction" prefWidth="144.0" text="Action" />
          </columns>
       </TableView>
-      <JFXButton buttonType="RAISED" layoutX="863.0" layoutY="710.0" onAction="#btnBackOnAction" prefHeight="34.0" prefWidth="89.0" style="-fx-background-color: brown;" styleClass="btn" stylesheets="@../style/style.css" text="Back" textFill="WHITE">
+      <JFXButton buttonType="RAISED" layoutX="872.0" layoutY="713.0" onAction="#btnBackOnAction" prefHeight="34.0" prefWidth="89.0" style="-fx-background-color: brown;" styleClass="btn" stylesheets="@../style/style.css" text="Back" textFill="WHITE">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>

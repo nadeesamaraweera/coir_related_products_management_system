@@ -50,7 +50,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <JFXButton buttonType="RAISED" layoutX="869.0" layoutY="710.0" onAction="#btnBackOnAction" prefHeight="34.0" prefWidth="89.0" style="-fx-background-color: brown;" styleClass="btn" stylesheets="@../style/style.css" text="Back" textFill="#d4cbcb">
+      <JFXButton buttonType="RAISED" layoutX="870.0" layoutY="710.0" onAction="#btnBackOnAction" prefHeight="34.0" prefWidth="89.0" style="-fx-background-color: brown;" styleClass="btn" stylesheets="@../style/style.css" text="Back" textFill="#d4cbcb">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
