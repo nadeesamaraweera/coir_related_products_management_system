@@ -116,10 +116,6 @@ public class DeliveryModel {
 
         List<DeliveryDto> delList = new ArrayList<>();
 
-        System.out.print("hello");
-        System.out.print("hello");
-
-
         while (resultSet.next()) {
             delList.add(new DeliveryDto(
                     resultSet.getString(1),
